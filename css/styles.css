@@ -428,7 +428,9 @@ body {
 
 /*---------Portfolio ---------*/
 
-
+.page .line {
+    border-bottom: 1px solid #ececec;
+}
 
 /*-----------Portfolio Button------------*/
 
