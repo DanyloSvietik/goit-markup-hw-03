@@ -175,7 +175,7 @@ body {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
-    color: var(--first-title-color);
+    color: var(--second-title-color);
     text-decoration: none;
 }
 
@@ -426,7 +426,7 @@ body {
 }
 
 
-/*-----------Portfolio Hero------------*/
+/*---------Portfolio ---------*/
 
 
 
@@ -438,9 +438,8 @@ body {
     gap: 8px;
     align-items: center;
     flex-basis: calc((100% - 32px) / 5);
-    padding-top: 94px;
-    padding-bottom: 34px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .portfolio-button {
@@ -467,13 +466,14 @@ body {
 
 .portfolio-hero {
     background-color: var(--header-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-image {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .portfolio-image-link {
